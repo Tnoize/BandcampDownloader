@@ -14,6 +14,7 @@ public sealed class BezzadDownloaderTests
 
     [Test]
     [Ignore("Test fails")]
+    // TODO : modify test and code according to response https://github.com/bezzad/Downloader/issues/203#issuecomment-3867326674
     public void RequestingCancellation_Throw_OperationCanceledException()
     {
         // Arrange
